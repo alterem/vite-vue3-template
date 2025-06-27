@@ -4,6 +4,7 @@ import Vuex from '@/views/Vuex.vue'
 import Test from '@/views/Test.vue'
 import OneText from '@/views/OneText.vue'
 import Plotly from '@/views/Plotly.vue'
+import PlotlyLine from '@/views/PlotlyLine.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -35,6 +36,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/plotly',
     name: 'Plotly',
     component: Plotly
+  },
+  {
+    path: '/plotlyLine',
+    name: 'PlotlyLine',
+    component: PlotlyLine
   }
 ]
 

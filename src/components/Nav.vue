@@ -52,6 +52,11 @@ export default defineComponent({
           name: 'Plotly',
           isActive: false,
           path: '/plotly'
+        },
+        {
+          name: 'PlotlyLine',
+          isActive: false,
+          path: '/plotlyLine'
         }
       ],
 
