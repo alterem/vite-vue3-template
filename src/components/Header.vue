@@ -25,7 +25,7 @@ const goGitHub = () => {
         'a',
         {
           style: 'color: teal',
-          href: 'https://github.com/alterem/vite-vue3-starter',
+          href: 'https://github.com/alterem/vite-vue3-template',
           target: '_github'
         },
         'github'
