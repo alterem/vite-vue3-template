@@ -6,6 +6,7 @@ import nodeStdlibBrowser from 'vite-plugin-node-stdlib-browser'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/vite-vue3-template/',
   plugins: [
     vue(),
     tailwindcss(),
