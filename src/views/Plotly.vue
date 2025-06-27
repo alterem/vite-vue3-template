@@ -443,7 +443,9 @@ export default {
         responsive: true,
         displayModeBar: true,
         displaylogo: false,
-        modeBarButtonsToRemove: ['pan2d', 'lasso2d', 'select2d'],
+        modeBarButtonsToRemove: ['pan2d', 'lasso2d', 'select2d', 'sendDataToCloud'],
+        staticPlot: false,
+        editable: false
       });
     },
     resizeChart() {
